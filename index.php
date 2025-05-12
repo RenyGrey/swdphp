@@ -21,7 +21,7 @@
   echo "<br>";
   echo "Hello $name, you are $age years old and $height meters tall and $is_married and your hobbies are $hobbies[0], $hobbies[1], and $hobbies[2]";
 
-  // control flow
+  // control flow 
   // if, else, elseif, switch
   if($age < 18) {
     echo "<br>";
@@ -45,7 +45,7 @@
   }
 
   // functions
-  // function name($parameter) {
+  // function name($parameter) 
   //   // code
   // }
   function sayHello($name) {
@@ -59,4 +59,24 @@
   // control flow
   // loops
   // functions
+
+  //swap 
+  $a = 10;
+  $b = 20;
+  $temp = $a;
+  $a = $b;
+  $b = $temp;
+  echo $a;
+  echo $b;
+
+  //check data
+  var_dump($name);
+  echo "<br>";
+  var_dump($age);
+  echo "<br>";
+  var_dump($height);
+  echo "<br>";
+  var_dump($is_married);
+  echo "<br>";
+  var_dump($hobbies);
 ?>
